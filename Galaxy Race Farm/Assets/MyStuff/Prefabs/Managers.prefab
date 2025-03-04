@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2724433605859253688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7415009961943733639}
+  - component: {fileID: 9205076493816680286}
+  - component: {fileID: 3262062188863785925}
+  - component: {fileID: 1571567871406255743}
+  - component: {fileID: 1131842074377754062}
+  - component: {fileID: 6783974792169696588}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7415009961943733639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -47.334442, y: 61.413216, z: 88.40128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9205076493816680286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 213e8ca0ea165dd49baf225fc21bcfe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlanetWaypointsList: []
+--- !u!114 &3262062188863785925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33aae3df3f1e9a449820e0d4fb76b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountOfRaces: 0
+  amountOfPlayers: 0
+  passivesRoundsOn: 0
+  noFarmRound: 0
+  trackWidth: 0
+  trackDataInfo: {fileID: 11400000, guid: 9043b02cd2233d046bc5af3e7ebe7fad, type: 2}
+  competitionFlow: {fileID: 0}
+  competitionSettings: {fileID: 11400000, guid: 31072bd332564cc45a96e1779979ee01,
+    type: 2}
+  raceManager: {fileID: 0}
+  FarmUI: {fileID: 0}
+  scoringList: 
+--- !u!114 &1571567871406255743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0661903bfca7a6b4e875f75e8ed26cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  competitionManager: {fileID: 0}
+  player1: {fileID: 0}
+  amountOfRaces: 0
+  amountOfPlayers: 0
+  currentRaceNr: 0
+  trackWidth: 0
+  track: {fileID: 7443546616871061841, guid: 4f0f6338e2b14f442b0e21cabc07eb5c, type: 3}
+  parentToTracks: {fileID: 0}
+  parentToRacers: {fileID: 0}
+  aIRacer: {fileID: 5057903932033055955, guid: 4fa050cf5856f2b43a073ce133a9c7a9, type: 3}
+--- !u!114 &1131842074377754062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce5f7fa6f61eb445b6fdc0f13610313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  competitionManager: {fileID: 0}
+  competitionFLow: {fileID: 0}
+  finishingOrderList: []
+  finishingOrderTimes: []
+  amountOfRacers: 0
+  amountOfRaces: 0
+  currentRaceNr: 0
+  raceTime: 0
+  finishingTtimes: 
+  racersRegistredList: []
+  pointsList: 
+  farmUI: {fileID: 0}
+--- !u!114 &6783974792169696588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724433605859253688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b649a776baf8af341b7f085e01a50341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
