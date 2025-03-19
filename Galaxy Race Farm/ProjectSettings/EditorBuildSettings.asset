@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: Assets/MyStuff/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/MyStuff/Scenes/2RaceCreater 2.unity
+    path: Assets/_MyStuff/Scenes/2RaceCreater 2.unity
     guid: eb75e21984e5dd34294e28dc9b5ab469
   - enabled: 0
-    path: Assets/MyStuff/Scenes/MainScene.unity
+    path: Assets/_MyStuff/Scenes/MainScene.unity
     guid: 28c0b264ad286f44ea5a0be621e5a582
   - enabled: 1
-    path: Assets/MyStuff/Scenes/PreRaceUI.unity
+    path: Assets/_MyStuff/Scenes/PreRaceUI.unity
     guid: ade3884ccd70de545951cc4a6bd34f66
   - enabled: 1
-    path: Assets/MyStuff/Scenes/PostRaceUI.unity
+    path: Assets/_MyStuff/Scenes/PostRaceUI.unity
     guid: 99efa33062b97624b998bcdc57e454a0
   m_configObjects: {}
