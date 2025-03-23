@@ -86,10 +86,7 @@ public class RaceMovement : MonoBehaviour, IResetable
     {
        OnWaypointHit(other);
     }
-    public void OnWaypointHit2()
-    {
 
-    }
     public void OnWaypointHit(Collider other)
     {
         WaypointInfo WaypointInfo = other.GetComponent<WaypointInfo>();

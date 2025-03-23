@@ -13,8 +13,6 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        WaypointInfo WaypointInfo = other.GetComponent<WaypointInfo>();
-        GameObject grandparentGameObject = other.transform.parent?.parent.gameObject;
-        GameObject parentGameObject = other.transform.parent?.gameObject;
+        waypointHandler.WaypointHandling(other);
     }
 }
